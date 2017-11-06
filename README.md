@@ -17,4 +17,7 @@ Controller
 
 Model / Collection
   add / update / remove
+  
+View
+  observe model change
 ```
