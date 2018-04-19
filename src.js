@@ -24,7 +24,7 @@ const ParentView = Backbone.View.extend({
 // this has input form (presentational view)
 const AddTaskView = Backbone.View.extend({
 	events: {
-		'submit': 'onSubmitted'
+		submit: 'onSubmitted'
 	},
 
 	onSubmitted: (e) => {
@@ -51,8 +51,9 @@ const TasksView = Backbone.View.extend({
 
 
 // single task view (presentational view)
-const TaskView = // TODO
-
+const TaskView = Backbone.View.extend(/*TODO*/)
 
 // single task model
-const TaskModel = // TODO
+const TaskModel = Backbone.Model.extend(/*TODO*/)
+
+const TaskCollection = Backbone.Collection.extend({ model: TaskModel })
